@@ -1,0 +1,34 @@
+@charset "utf-8";
+html {  font-family: sans-serif; /* 1 */  -ms-text-size-adjust: 100%; /* 2 */  -webkit-text-size-adjust: 100%; /* 2 */-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 消除移动浏览器点击蓝色背景 */font-size: 20px;}
+body {  margin: 0; /*background-color: #f7f7f7;*/ font-size: 14px;}
+img {  border-style: none;}
+/*img:hover*/{
+-moz-opacity:0.85; /*Firefox私有，透明度50%*/
+opacity:0.85;/*其他，透明度50%*/}
+svg:not(:root) {  overflow: hidden;}
+code,kbd,pre,samp {  font-family: monospace, monospace; /* 1 */  font-size: 1em; /* 2 */}
+figure {  margin: 1em 40px;}
+hr {  box-sizing: content-box; /* 1 */  height: 0; /* 1 */  overflow: visible; /* 2 */}
+button,input,select,textarea {  font: inherit; /* 1 */  margin: 0; /* 2 */outline: none;padding:0;margin:0;border:1px solid #e2e2e2;}
+optgroup {  font-weight: bold;}
+[type="checkbox"],[type="radio"] {  box-sizing: border-box; /* 1 */  padding: 0; /* 2 */}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {  height: auto;}
+[type="search"] {  -webkit-appearance: textfield; /* 1 */  outline-offset: -2px; /* 2 */}
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {  -webkit-appearance: none;}
+::-webkit-input-placeholder {  color: inherit;  opacity: 0.54;}
+::-webkit-file-upload-button {  -webkit-appearance: button; /* 1 */  font: inherit; /* 2 */}
+a{color:#333;}
+a:active{outline:none;}a span,a:hover span{cursor:pointer;}
+/* normalize.css结束 */
+.clearfix {	*zoom:1}
+.clearfix:before,.clearfix:after {	display:table;	line-height:0;	content:""}
+.clearfix:after {	clear:both}
+p{margin: 0;}
+img {	width:auto\9;	height:auto;	/*width:100%;*/	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic}
+ul li,ol li{list-style:none}
+.f-fl,.f-lifl li{float:left;display:inline}
+.f-fr{float:right;display:inline}
+/* 全站全局CSS部分结束 */
+a{ text-decoration: none }
+a:hover { text-decoration:none; }
+
