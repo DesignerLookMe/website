@@ -12,7 +12,53 @@
 </head>
 <body>
 	<div class="g-header-box">
-		<div class="m-header-top"></div>
+		<div class="m-header-top">
+			<div class="m-header-logo g-width-default">
+				<a href="" class="f-header-logo">logo</a>
+				<span class="f-header-contribute f-fr"><a href="">登录</a><a href="">注册</a></span>
+			</div>
+			<div class="m-header-nav g-width-default clearfix">
+				<span class="f-header-nav f-fl"><a href="">首页</a><a href="">分类</a></span>
+				<span class="f-header-search f-fr"><input type="text" placeholder="猜您想搜"><input class="f-header-search-btn" type="submit"></span>
+			</div>
+		</div>
+		<div class="m-header-banner">
+			<div class="m-banner-box g-width-default clearfix">
+				<div class="m-banner-left f-fl">
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide">Slide 1</div>
+				            <div class="swiper-slide">Slide 2</div>
+				            <div class="swiper-slide">Slide 3</div>
+				            <div class="swiper-slide">Slide 4</div>
+				            <div class="swiper-slide">Slide 5</div>
+				        </div>
+				        <!-- Add Pagination -->
+				        <div class="swiper-pagination"></div>
+				        <!-- Add Arrows -->
+				        <div class="swiper-button-next"></div>
+				        <div class="swiper-button-prev"></div>
+				    </div>
+				</div>
+				<div class="m-banner-right f-fr">
+					<h2>站长推荐</h2>
+					<a href=""><strong>乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”</strong><em class="u-time">2020-05-08</em></a>
+					<a href=""><strong>乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”</strong><em class="u-time">2020-05-08</em></a>
+					<a href=""><strong>乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”乐视上市公司体系品牌推出新品牌“乐融牌“乐融”</strong><em class="u-time">2020-05-08</em></a>
+					<a href="" class="u-more-btn">查看更多资讯</a>
+				</div>
+			</div>
+		</div>
 	</div>
+	    <script>
+		    var swiper = new Swiper('.swiper-container', {
+		    	loop:true,
+		        pagination: '.swiper-pagination',
+		        paginationClickable: '.swiper-pagination',
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        spaceBetween: 30
+		    });
+	    </script>
 </body>
 </html>
