@@ -38,10 +38,12 @@ ul li,ol li{list-style:none}
 /* 全站全局CSS部分结束 */
 a{ text-decoration: none }
 a:hover { text-decoration:none; }
+
 .g-width-default{width:66rem;margin:0 auto;}
+
 em{font-style: normal;}
 em.u-time{color: #999;}
-.u-more-btn{font-size: .8rem;}
+.u-more-btn{font-size: .8rem;text-align: center;margin-top: .5rem;}
 .u-more-btn:hover{text-decoration: underline;}
 
 
