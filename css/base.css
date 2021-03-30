@@ -42,7 +42,8 @@ a:hover { text-decoration:none; }
 .g-width-default{width:66rem;margin:0 auto;}
 
 em{font-style: normal;}
-em.u-time{color: #999;}
+em.u-time{color: #999;font-family: 'arial';font-size: 12px;}
+em.u-img img{width: 100%;}
 .u-more-btn{font-size: .8rem;text-align: center;margin-top: .5rem;}
 .u-more-btn:hover{text-decoration: underline;}
 
